@@ -13,7 +13,7 @@
 #define _SPCFP_included
 
 #if !defined PAWNRAKNET_INC_
-    #error You must have Pawn.RakNet included to use this library
+	#error You must have Pawn.RakNet included to use this library
 #endif
 
 #if !defined _samp_included
@@ -59,15 +59,5 @@ stock ResetPlayerColorForPlayer(for_player, playerid)
 
 	BS_RPC(SPCFP_bs, for_player, 0x48);
 	BS_Delete(SPCFP_bs);
-
 	return 1;
 }
-
-
-
-
-
-
-
-
-
