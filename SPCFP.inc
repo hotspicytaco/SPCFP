@@ -39,7 +39,7 @@ stock SetPlayerColorForPlayer(for_player, playerid, color)
 
 	// GetPlayerColor might be affected by this RPC, just so you know... I am not sure
 	// A workaround might be needed
-
+	
 	BS_RPC(SPCFP_bs, for_player, 0x48);
 	BS_Delete(SPCFP_bs);
 
