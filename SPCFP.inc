@@ -1,12 +1,3 @@
-/*
-	SetPlayerColorForPlayer
-
-	@author: 	hotspicytaco
-	
-	please love Jelly23 for helping me understand this black magic
-	over Discord
-*/
-
 #if defined _SPCFP_included
     #endinput
 #endif
